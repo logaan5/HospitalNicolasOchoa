@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/HospitalNicolasOchoa/img/icono_hospital.png">
+    <title>Hospital Ramos - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h2 style="text-align: center; color: rgb(139, 34, 69); font-size: 50px;">Medicina</h2>
+        <p style="text-align: center; font-size: 20px;">Bienvenidos</p>
+    </header>
+    <hr>
+    <nav>
+        <a href="/HospitalNicolasOchoa/index.html">Home</a>
+        <a href="https://hospitalvozandes.com/" target="_blank">Página Oficial</a>
+        <a href="/pages/contacto.html">Contacto</a>
+    </nav>
+    <hr>
+    <!--Formulario de registro-->
+    <form action="#">
+
+        <label for="nombre">Ingrese su nombre</label>
+        <br>
+        <input type="text" id="nombre" placeholder="Nombre" size="10" required>
+        <br><br>
+
+        <label for="email">Ingrese su email</label>
+        <br>
+        <input type="email" id="email" placeholder="Email" required>
+        <br><br>
+
+        <label for="passw">Ingrese su contraseña</label>
+        <br>
+        <input type="password" id="passw" placeholder="Contraseña" required>
+        <br><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento</label>
+        <br>
+        <input type="date" id="fecha_nacimiento" required>
+        <br><br>
+
+        <label for="cargas_familiares">Cargas familiares</label>
+        <br>
+        <input type="number" id="cargas_familiares">
+        <br><br>
+
+        <label for="#">Género</label>
+        <br>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="genero">Masculino
+        </label>
+        <label for="femenino">
+            <input type="radio" id="femenino" name="genero">Femenino
+        </label>
+        <label for="otro">
+            <input type="radio" id="otro" name="genero">Otro
+        </label>
+        <br><br>
+
+        <label for="#">Seleccione su Ciudad: </label>
+        <select name="ciudad" id="ciudad">
+            <option value="opcion" disabled selected>Seleccionar opción</option>
+            <option value="quito">Quito</option>
+            <option value="cuenca">Cuenca</option>
+            <option value="latacunga">Latacunga</option>
+            <option value="ibarra">Ibarra</option>
+        </select>
+        </label>
+        <br><br>
+
+        <label for="foto">Seleccione su Foto: </label>
+        <br>
+        <input type="file" id="foto">
+        <br><br>
+
+        <label for="comentarios">Deje sus Comentarios:</label>
+        <br>
+        <textarea name="Comentarios" id="comentarios" cols="30" rows="5"
+            placeholder="Escriba sus comentarios"></textarea>
+        <br><br>
+
+        <label for="color_triaje">Color de triaje</label>
+        <br>
+        <input type="color" id="color_triaje">
+        <br><br>
+
+        <label for="ultimo_control">Mes de su último control médico</label>
+        <br>
+        <input type="month" id="ultimo_control">
+        <br><br>
+
+        <label for="semana_cita">Semana para su próxima cita</label>
+        <br>
+        <input type="week" id="semana_cita">
+        <br><br>
+
+        <label for="seguro_web">Página web de su seguro médico</label>
+        <br>
+        <input type="url" id="seguro_web" placeholder="https://www.ejemplo.com">
+        <br><br>
+
+        <label for="buscar_med">Buscar medicamento actual</label>
+        <br>
+        <input type="search" id="buscar_med" placeholder="Ej. Paracetamol">
+        <br><br>
+
+        <label for="progreso">Avance del tratamiento</label>
+        <br>
+        <progress id="progreso" value="50" max="100"></progress>
+        <br><br>
+    </form>
+</body>
+
+</html>
